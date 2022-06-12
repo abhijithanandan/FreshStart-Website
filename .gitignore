@@ -50,3 +50,7 @@ wp-config.php
 # If you use a2 hosting we need to remove the following files 
 /cgi-bin
 /robots.txt
+#Remove the plugins and themes and only include what is necessary
+/wp-content/themes/*
+!/wp-content/themes/torno-child
+/wp-content/plugins/*
